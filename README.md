@@ -1,7 +1,9 @@
 
-# Welcome to your CDK Python project!
+# Data Transfer using AWS CDK Python!
 
-This is a blank project for CDK development with Python.
+This application creates an AWS Stack in the cloud to move files from an s3 bucket to an ec2 folder
+uses S3 Bucket Events & Lambda to send data to an ec2 server
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

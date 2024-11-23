@@ -2,8 +2,10 @@
 import os
 
 import aws_cdk as cdk
-
+from aws_cdk import App
 from ingestion_app_cdk.ingestion_app_cdk_stack import IngestionAppCdkStack
+
+
 
 
 app = cdk.App()
